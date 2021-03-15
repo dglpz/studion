@@ -10,7 +10,9 @@
 
 <body>
     <nav class="navbar">
-        <h1 class="logo-studion">Studi<span class="copy--primary">on </span><span class="logo-studion__subtitle">Eventos</span></h1>
+    <div class="container navbar__container">
+        <h1 class="logo-studion">Studi<span class="copy--primary">on </span><span
+                class="logo-studion__subtitle">Eventos</span></h1>
         <ul class="navbar__links">
             <li>
                 <a href="#empresa">
@@ -38,6 +40,7 @@
                 </a>
             </li>
         </ul>
+    </div>
     </nav>
 
     <header>
@@ -54,27 +57,28 @@
     </header>
 
     <main>
-        <section>
-            <ul>
+        <section id="counter">
+            <ul class="container counter__container">
                 <li>
-                    <h3>+ de 500 </h3>eventos realizados
+                    <h3>+ de 500 <small>eventos realizados</small></h3>
                 </li>
                 <li>
-                    <h3>+ de 1.000.000 </h3>de ingressos vendidos
+                    <h3>+ de 1.000.000 <small>de ingressos vendidos</small></h3>
                 </li>
                 <li>
-                    <h3>+ de 300 </h3>empresas atendidas
+                    <h3>+ de 300 <small>empresas atendidas</small></h3>
                 </li>
             </ul>
         </section>
 
-        <section>
-            <div>
-                <img src="./images/institutional.jpg" />
+        <section class="container institutionial">
+            <img class="institutionial__image" src="./images/institutional.jpg" alt="Studion institutional" />
+            <div class="institutionial__copy">
                 <h6>Fazemos seu evento acontecer</h6>
-                <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla ea excepturi inventore? Atque, quas corporis? Nostrum dolorum necessitatibus quas pariatur nisi qui aliquid deleniti! Repudiandae ut non blanditiis fugit eaque.</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum sint, architecto, fuga autem expedita repellendus debitis totam, blanditiis explicabo iusto accusantium! Placeat praesentium autem dolorem maxime commodi ratione rerum explicabo.</p>
-                <button>Saiba Mais</button>
+                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam, sed diam nonummy nibh euismod
+                    tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                <button class="btn btn--institutional">Saiba Mais</button>
             </div>
         </section>
 
